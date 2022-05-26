@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+}
+
+
+h1{
+    color: rgb(226, 8, 8);
+    font-size: 52px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container h1 span{
+    font-size: 48px;
+    color: white;
+}
+
+.container{
+    border: 1px solid   black;
+    background-color: rgb(133, 107, 107);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    /* background-image: url(./images/efe.JPG);
+    background-size: cover;
+    background-position: center;
+    top: 0; */
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 2px; */
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container .link li{
+    display: inline;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.container .link li a{
+    padding: 40px;
+    text-decoration: none;
+    color: white;
+    padding-top: 60px;
+}
+
+.container .link li a:hover{
+    color: red;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    background: url(./images/web\ dv.jpg) no-repeat center center/cover;
+    height: 800px;
+    width: 100%;
+
+}
+
+.hero .mane{
+    content: "";
+    position: absolute;
+    top: 380px;
+    left: 10px;
+    text-align left: 10px;
+    z-index: 1;
+
+
+}
+
+.hero .mane h1{
+    font-size: 70px;
+    color: red;
+}
+
+.hero .mane h1 .change{
+    font-size: 70px;
+    color: white;
+    padding-left: 10px;
+    z-index: 4;
+}
+
+.hero .mane h1 .change .h4{
+    font-size: 100px;
+    align-items: center;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 70px;
+    margin-bottom: 50px;
+
+}
+
+.section .heading{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex img{
+    padding-top: 35px;
+    width: 700px;
+   height: 400px;
+} 
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 30px;
+    padding-top: 70px;
+}
+
+.intro p{
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.intro p{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* .sect{
+    display: flex;
+    justify-content: center;
+  
+
+} */
+.sect .proj{
+    text-align: center;
+}
+
+.sect .image{
+    border: 2px solid black;
+    padding-top: 50px;
+    width: 350px;
+    height: 300px;
+    align-items: center;
+
+}
+
